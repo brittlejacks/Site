@@ -1,4 +1,4 @@
-// Teaser List 1 - Updated May 30, 2024
+// Teaser List 1 - Updated May 31, 2024
 function noop() { }
 function run(fn) {
     return fn();
@@ -1287,7 +1287,7 @@ function create_if_block_1(ctx) {
 		h() {
 			if (!src_url_equal(img.src, img_src_value = /*teaser*/ ctx[2].image.url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*teaser*/ ctx[2].image.alt);
-			attr(img, "class", "svelte-14ubem6");
+			attr(img, "class", "svelte-sftzti");
 		},
 		m(target, anchor) {
 			insert_hydration(target, img, anchor);
@@ -1328,7 +1328,7 @@ function create_if_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "link svelte-14ubem6");
+			attr(a, "class", "link svelte-sftzti");
 			attr(a, "href", a_href_value = /*teaser*/ ctx[2].link.url);
 		},
 		m(target, anchor) {
@@ -1402,10 +1402,10 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h2, "class", "title svelte-14ubem6");
+			attr(h2, "class", "title svelte-sftzti");
 			attr(div0, "class", "content");
-			attr(div1, "class", "body svelte-14ubem6");
-			attr(div2, "class", "teaser svelte-14ubem6");
+			attr(div1, "class", "body svelte-sftzti");
+			attr(div2, "class", "teaser svelte-sftzti");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div2, anchor);
@@ -1494,7 +1494,7 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(div, "class", "teasers svelte-14ubem6");
+			attr(div, "class", "teasers svelte-sftzti");
 			attr(section, "class", "section-container");
 		},
 		m(target, anchor) {
