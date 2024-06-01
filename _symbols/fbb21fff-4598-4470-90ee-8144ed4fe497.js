@@ -2919,9 +2919,6 @@ function create_fragment(ctx) {
 	let t10;
 	let t11;
 	let ul;
-	let t12;
-	let a2;
-	let t13;
 	let current;
 	icon = new Component$1({ props: { icon: "mdi:envelope" } });
 	let each_value = /*social_links*/ ctx[2];
@@ -2967,9 +2964,6 @@ function create_fragment(ctx) {
 				each_blocks[i].c();
 			}
 
-			t12 = space();
-			a2 = element("a");
-			t13 = text("Mastodon");
 			this.h();
 		},
 		l(nodes) {
@@ -3024,11 +3018,6 @@ function create_fragment(ctx) {
 			ul_nodes.forEach(detach);
 			div1_nodes.forEach(detach);
 			div2_nodes.forEach(detach);
-			t12 = claim_space(footer_nodes);
-			a2 = claim_element(footer_nodes, "A", { rel: true, href: true });
-			var a2_nodes = children(a2);
-			t13 = claim_text(a2_nodes, "Mastodon");
-			a2_nodes.forEach(detach);
 			footer_nodes.forEach(detach);
 			this.h();
 		},
@@ -3045,8 +3034,6 @@ function create_fragment(ctx) {
 			attr(ul, "class", "svelte-i8f0ga");
 			attr(div1, "class", "secondary svelte-i8f0ga");
 			attr(div2, "class", "section-container svelte-i8f0ga");
-			attr(a2, "rel", "me");
-			attr(a2, "href", "https://mastodon.ie/@SamuelGuthrie");
 		},
 		m(target, anchor) {
 			insert_hydration(target, footer, anchor);
@@ -3081,9 +3068,6 @@ function create_fragment(ctx) {
 				}
 			}
 
-			append_hydration(footer, t12);
-			append_hydration(footer, a2);
-			append_hydration(a2, t13);
 			current = true;
 		},
 		p(ctx, [dirty]) {
