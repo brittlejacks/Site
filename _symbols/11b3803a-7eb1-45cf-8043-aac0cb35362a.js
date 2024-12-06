@@ -2825,7 +2825,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (113:8) {#each social_links as { link, icon }}
+// (114:8) {#each social_links as { link, icon }}
 function create_each_block(ctx) {
 	let li;
 	let a;
@@ -2867,10 +2867,10 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(span, "class", "svelte-1byd7us");
+			attr(span, "class", "svelte-7971bi");
 			attr(a, "href", a_href_value = /*link*/ ctx[5].url);
-			attr(a, "class", "svelte-1byd7us");
-			attr(li, "class", "svelte-1byd7us");
+			attr(a, "class", "svelte-7971bi");
+			attr(li, "class", "svelte-7971bi");
 		},
 		m(target, anchor) {
 			insert_hydration(target, li, anchor);
@@ -2994,14 +2994,14 @@ function create_fragment(ctx) {
 		h() {
 			if (!src_url_equal(img.src, img_src_value = /*portrait*/ ctx[1].image.url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*portrait*/ ctx[1].image.alt);
-			attr(img, "class", "svelte-1byd7us");
-			attr(figure, "class", "svelte-1byd7us");
+			attr(img, "class", "svelte-7971bi");
+			attr(figure, "class", "svelte-7971bi");
 			toggle_class(figure, "square", /*portrait*/ ctx[1].variation === "square");
-			attr(h1, "class", "headline svelte-1byd7us");
-			attr(div0, "class", "description svelte-1byd7us");
-			attr(ul, "class", "social svelte-1byd7us");
-			attr(div1, "class", "svelte-1byd7us");
-			attr(div2, "class", "section-container svelte-1byd7us");
+			attr(h1, "class", "headline svelte-7971bi");
+			attr(div0, "class", "description svelte-7971bi");
+			attr(ul, "class", "social svelte-7971bi");
+			attr(div1, "class", "svelte-7971bi");
+			attr(div2, "class", "section-container svelte-7971bi");
 		},
 		m(target, anchor) {
 			insert_hydration(target, header, anchor);
